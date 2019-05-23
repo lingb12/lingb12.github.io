@@ -1,0 +1,7 @@
+@media screen and (min-width: 42rem) {
+  #prices { 
+    min-width: 20rem;
+  }
+
+  #article-page .flex { display: flex; }
+}

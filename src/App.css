@@ -1,0 +1,28 @@
+.cell-action {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-center-items {
+  display: flex;
+  align-items: center;
+}
+
+.spacer, .grow { flex: auto; }
+
+.toolbar { padding: 8px 0; }
+
+.pad-8 { padding: 8px; }
+
+.snap-item {
+  scroll-snap-align: start;
+}
+
+.snap-container {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-padding-top: 4rem;
+  scroll-snap-type: y mandatory;
+}

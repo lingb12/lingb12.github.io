@@ -1,0 +1,36 @@
+#dashboard table { min-width: 0;}
+
+@media screen and (max-width: 27rem) {
+  #articles th:nth-child(4), #articles td:nth-child(4), #articles th:nth-child(3),
+  #articles td:nth-child(3), #ventes td:nth-child(5), #ventes th:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  #articles th:nth-child(4), #articles td:nth-child(4), #articles th:nth-child(3),
+  #articles td:nth-child(3), #ventes td:nth-child(5), #ventes th:nth-child(5) {
+    display: none;
+  }
+}
+
+dl:nth-child(1) { color: darkblue; }
+dl:nth-child(2) { color: darkgreen; }
+dl:nth-child(3) { color: dodgerblue; }
+dl:nth-child(5) { color: darkred; }
+
+@media screen and (max-width: 27rem) {
+  #ventes th:nth-child(2), #ventes td:nth-child(2), #ventes th:nth-child(3), #ventes td:nth-child(3),
+  #ventes th:nth-child(5), #ventes td:nth-child(5), #ventes th:nth-child(6), #ventes td:nth-child(6),
+  #operations th:nth-child(2), #operations td:nth-child(2), #operations th:nth-child(3),
+  #operations td:nth-child(4), #operations th:nth-child(4),
+  #operations td:nth-child(3), #operations th:nth-child(6), #operations td:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  #dashboard .flex { display: flex; }
+  #dashboard #ventes { flex: auto; }
+  #dashboard #articles { min-width: 20rem; }
+}
